@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    background-color: rgb(232, 232, 232);
+    font-size: 'calibri';
+}
+
+.containerUp{
+    background-color: rgba(0, 174, 255, 0.851);
+    display: flex;
+    align-items: center;
+}
+
+.containerUp .menu a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.containerUp .menu a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    color: #551A8B;
+}
+
+.containerUp .titulo{
+    width: 800px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.containerUp .logo{
+    text-align: center;
+    width: 300px;
+}
+
+.container .box {
+    display: flex;
+    text-align: center;
+    height: 1400px;
+}
+
+.boxOne{
+    width: 5500px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.boxTwo{
+    width: 2000px;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    margin: 5px;
+    height: 600px;
+}
+
+.boxTwo h3{
+    text-align: center;
+}
+
+.box3 input{
+    margin-left: 5px;
+    width: 265px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.box3{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.boxTwo #circle{
+    margin-left: 5px;
+    background-color: rgb(166, 166, 166);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.boxTwo #comments{
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.916);
+    margin-right: 8px;
+    width: 320px;
+    height: 35px;
+}
+
+.boxOne .document{
+    border-radius: 3%;
+}
+
+.boxOne p{
+    text-align: left;
+    font-size: 20px;
+}
+
+.img{
+    width: 240px;
+    height: 114px;
+}
+
+.form-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register #dato{
+    color:white;
+    
+}
+
+.form-register h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#question{
+    height: 20px;
+    margin-top: -10px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.boxCanvas{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#boxPrueba{
+    margin: 10px;
+}
+
+#canvas{
+    width: 700px;
+    height: 500px;
+    border: 1px solid #000;
+}
+
+.imgC{
+    margin-left: 20px;
+    max-width: 1400px;
+    height: 550px;
+    display: flex;
+    text-align: center;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+.imgC picture{
+    width: 400px;
+    height: 550px;
+}
+
+#contact{
+    text-align: center;
+}
+
+#parraf{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#footer p{
+    text-align: center;
+    color: gray;
+}
+
+.madre{
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.hijo{
+    margin-left: 20px; 
+    margin-right: 20px;
+    font-size: 20px;
+}

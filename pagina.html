@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ra Página</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+</head>
+
+<body>
+    <div class="containerUp">
+
+        <div class="logo">
+            <img class="img" src="javaLogo.png" alt="ImagenNoSubida">
+        </div>
+        <div class="titulo">
+            <h1>Curso para aprender Java</h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="pagina.html" style="color: rgb(4, 0, 255);">Inicio</a>
+                <a href="formulario.html">Inscripción</a>
+                <a href="Temario.html">Temario</a>
+                <a href="Nosotros.html">Sobre Nosotros</a>
+            </nav>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="box">
+
+
+            <div class="boxOne">
+                <p>En este nuevo curso podrás aprender <abbr title="Programación Orientada a Objetos">POO</abbr> con
+                    Java, Según "Wikipedia" define a Java como:
+                <blockquote cite="">
+                    <pre>Un lenguaje de programación de alto nivel, altamente tipado es una plataforma 
+                        informática que fue comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios 
+                        web que no funcionarán, probablemente, a menos que tengan Java instalado, y cada día se crean más. Java es rápido, 
+                        seguro y fiable...</pre>
+                </blockquote>
+                <p>Video extraido del canal "yacklyon", introducción a Java...</p>
+                </p>
+                <script>
+                    function message(){
+                        alert("Dirigite a la sección 'Inscripción'");
+                    }
+                </script>
+                <div style="text-align: center;">
+                    <video class="document" width="520" height="400" controls style="margin-top: 5px;">
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <button onclick="message()">Quiero Inscribirme</button>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam assumenda quasi cupiditate,
+                    provident nostrum eum nobis illum in eligendi enim repellendus minus cumque molestias
+                    exercitationem
+                    numquam. Quibusdam, qui quod.</p>
+                <iframe  width="600px" height="650px" src="MVP.pdf" frameborder="0"></iframe>
+            </div>
+
+            <div class="boxTwo">
+                <h3>Comentarios de nuestros estudiantes sobre el curso</h3>
+                <div class="box3">
+                    <div id="circle" style="background-image: url('userM.png'); background-size: cover;"></div>
+                    <div id="comments">El curso me parece genial, he aprendido mucho</div>
+                </div>
+                <div class="box3">
+                    <div id="circle" style="background-image: url('userW.png'); background-size: cover;"></div>
+                    <div id="comments">Ha valido la pena 100%, seguiré con más</div>
+                </div>
+                <div class="box3">
+                    <div id="circle" style="background-image: url('userM.png'); background-size: cover;"></div>
+                    <div id="comments">La mejor inversión que he hecho, esto mejoro mi HV muchisimo</div>
+                </div>
+                <div class="box3">
+                    <div id="circle" style="background-image: url('userW.png'); background-size: cover;"></div>
+                    <div id="comments">
+                        <p><cite>Learn Java</cite>, se los recomiendo, es de...</p>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div id="circle" style="background-image: url('userM.png'); background-size: cover;"></div>
+                    <div id="comments"><bdo dir="ltr">No pense que fuera capaz de programar tanto con un curso de estos,
+                            ¡¡gracias!!</bdo></div>
+                </div>
+                <div class="box3">
+                    <div id="circle" style="background-image: url('userW.png'); background-size: cover;"></div>
+                    <div id="comments">Lorem ipsum dolor sit amet.</div>
+                </div>
+                <div class="box3">
+                    <div id="circle" style="background-image: url('userM.png'); background-size: cover; "></div>
+                    <div id="comments">Comment</div>
+                </div>
+                <script>
+                    function alerta(){
+                        alert("Comentario enviado");
+                    }
+                </script>
+                <div class="box3">
+                    <div id="circle" style="background-image: url('user.png'); background-size: cover;"></div>
+                    <input type="text" placeholder="Ingresa tu comentario">
+                    <button type="submit" onclick="alerta()">Enviar</button>
+                    <script></script>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="footer">
+        <hr>
+        <p>Página hecha por: Mariana Cruz - Lab Soft I</p>
+    </footer>
+</body>
+
+</html>

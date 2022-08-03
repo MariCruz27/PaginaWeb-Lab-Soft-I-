@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ra Página</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+</head>
+
+<body>
+
+    <div class="containerUp">
+
+        <div class="logo">
+            <img class="img" src="javaLogo.png" alt="ImagenNoSubida">
+        </div>
+        <div class="titulo">
+            <h1>Curso para aprender Java</h1>
+        </div>
+        <div class="menu">
+            <a href="pagina.html">Inicio</a>
+            <a href="formulario.html" style="color: rgb(4, 0, 255);">Inscripción</a>
+            <a href="Temario.html">Temario</a>
+            <a href="Nosotros.html">Sobre Nosotros</a>
+        </div>
+
+    </div>
+
+    <br><br>
+    <span id="parraf">A continuación encontrará un formulario para que ingrese todos sus datos, después de realizar la
+        inscripción le llegará un correo con más información</span></p>
+
+    <section class="form-register">
+        <h4>Formulario Inscripción</h4>
+        <form action="#">
+            <fieldset style="border-style: none;">
+                <label for="nombre"></label>
+                <input class="controls" type="text" name="nombre" id="dato" placeholder="Ingrese su nombre">
+                <label for="apellido"></label>
+                <input class="controls" type="text" name="apellido" id="dato" placeholder="Ingrese su apellido">
+                <label for="correo"></label>
+                <input class="controls" type="email" name="correo" id="dato" placeholder="Ingrese su correo">
+                <label for="numero"></label>
+                <input class="controls" type="numbers" name="numero" id="dato" placeholder="Ingrese su número">
+                <label for="interes"></label>
+                <p id="question">¿Por qué te interesa inscribirte en este curso?</p>
+                <textarea class="controls" name="interes" id="dato" rows="3" placeholder="Escribe aquí"></textarea>
+                <div style="display: flex;width: 380px; height: 45px; align-items: center;">
+                    <input type="checkbox" name="" id="">
+                    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                </div>
+                <input class="botons" type="button" value="Registrar" onclick="alert('Estas registrado')">
+            </fieldset>
+        </form>
+    </section>
+
+    <p style="color: rgb(232, 232, 232);" id="parraf">Hola</p>
+
+    <footer id="footer">
+        <hr>
+        <p>Página hecha por: Mariana Cruz - Lab Soft I</p>
+    </footer>
+
+</body>
+
+</html>
